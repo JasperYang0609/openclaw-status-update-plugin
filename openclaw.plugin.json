@@ -1,0 +1,36 @@
+{
+  "id": "status-update",
+  "kind": "tools",
+  "name": "Status Update",
+  "description": "Provides a status_update tool that posts concise Traditional Chinese progress updates to the current conversation route.",
+  "version": "0.1.0",
+  "contracts": {
+    "tools": ["status_update"]
+  },
+  "activation": {
+    "onStartup": true
+  },
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "prefix": {
+        "type": "string",
+        "description": "Prefix added to every status update. Default: 狀態更新："
+      },
+      "maxLength": {
+        "type": "number",
+        "description": "Maximum status text length after prefix. Default: 240"
+      },
+      "silent": {
+        "type": "boolean",
+        "description": "Send Discord updates silently when supported. Default: true"
+      }
+    }
+  },
+  "toolMetadata": {
+    "status_update": {
+      "optional": false
+    }
+  }
+}

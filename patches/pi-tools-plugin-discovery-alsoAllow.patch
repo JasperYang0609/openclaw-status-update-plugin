@@ -1,0 +1,13 @@
+--- pi-tools-DepR0oGW.js.orig
++++ pi-tools-DepR0oGW.js
+@@ -965,8 +965,8 @@
+ 	});
+ 	options?.recordToolPrepStage?.("shell-tools");
+ 	const pluginToolAllowlist = collectExplicitAllowlist([
+-		profilePolicy,
+-		providerProfilePolicy,
++		profilePolicyWithAlsoAllow,
++		providerProfilePolicyWithAlsoAllow,
+ 		globalPolicy,
+ 		globalProviderPolicy,
+ 		agentPolicy,
