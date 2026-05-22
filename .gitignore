@@ -4,3 +4,21 @@ node_modules/
 *.log
 npm-debug.log*
 *.tgz
+
+# Secrets / local credentials
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+credentials.json
+secrets.json
+service-account*.json
+*.p12
+*.pfx
+
+# Local artifacts
+.cache/
+tmp/
+temp/
