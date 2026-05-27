@@ -1,8 +1,8 @@
 {
   "name": "openclaw-status-update",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
-  "description": "OpenClaw native plugin that exposes a status_update tool for concise in-channel progress updates.",
+  "description": "OpenClaw native plugin that exposes a status_update tool for concise in-channel progress and reasoning-state-change updates.",
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {

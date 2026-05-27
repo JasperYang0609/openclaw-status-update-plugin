@@ -2,10 +2,12 @@
   "id": "status-update",
   "kind": "tools",
   "name": "Status Update",
-  "description": "Provides a status_update tool that posts concise Traditional Chinese progress updates to the current conversation route.",
-  "version": "0.1.0",
+  "description": "Provides a status_update tool that posts concise Traditional Chinese progress and reasoning-state-change updates to the current conversation route.",
+  "version": "0.2.0",
   "contracts": {
-    "tools": ["status_update"]
+    "tools": [
+      "status_update"
+    ]
   },
   "activation": {
     "onStartup": true
